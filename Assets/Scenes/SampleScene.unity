@@ -3054,6 +3054,27 @@ MonoBehaviour:
   bulletSpawnPoint: {fileID: 782324717}
   bulletMaxImpulse: 10
   maxChargeTime: 3
+--- !u!4 &1346615608 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2909765933112470882, guid: d8241ec8a7e58e9478e94dc6b27c578c, type: 3}
+  m_PrefabInstance: {fileID: 2909765933432335656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1346615611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346615603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ae4ce90648de554ab03efc5b8aee885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 2352403368565752524, guid: eb5b1876d1045fb41b6f6822642cd01c, type: 3}
+  bulletSpawnPoint: {fileID: 782324717}
+  bulletMaxImpulse: 10
+  maxChargeTime: 3
 --- !u!1 &1350182873
 GameObject:
   m_ObjectHideFlags: 0
@@ -3886,6 +3907,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2909765934136695762, guid: d8241ec8a7e58e9478e94dc6b27c578c, type: 3}
+      propertyPath: cameraTransform
+      value: 
+      objectReference: {fileID: 1346615608}
     - target: {fileID: 2909765934136695772, guid: d8241ec8a7e58e9478e94dc6b27c578c, type: 3}
       propertyPath: m_Name
       value: Player
@@ -3909,6 +3934,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2909765933112470881, guid: d8241ec8a7e58e9478e94dc6b27c578c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1346615607}
+    - targetCorrespondingSourceObject: {fileID: 2909765933112470881, guid: d8241ec8a7e58e9478e94dc6b27c578c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1346615611}
   m_SourcePrefab: {fileID: 100100000, guid: d8241ec8a7e58e9478e94dc6b27c578c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
